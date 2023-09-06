@@ -1,0 +1,34 @@
+.header {
+    display: grid;
+    grid-template-columns: 1fr;
+    color: #cbcbcb;
+    background-color: #11122b;
+    padding: 20px 60px;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.header h1 {
+    color:#cea135;
+    padding: 20px 400px;
+    text-align: center;
+}
+
+
+.nav-link {
+    display: flex;
+    text-align: center;
+    grid-gap:250px;
+
+}
+.nav-link a {
+    color: #cbcbcb;
+    text-decoration: none;
+}
+
+.nav-link a:hover {
+    color: #cea135;
+    transition: 0.5s;
+
+}
+
